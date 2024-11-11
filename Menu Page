@@ -538,4 +538,13 @@
     </div>
 </div>
 </body>
+<script>
+  selectedItem: string = '';
+
+  // Set selectedItem based on which button was clicked
+  onItemClick(item: string) {
+    this.selectedItem = item;
+  }
+
+</script>
 </html>
